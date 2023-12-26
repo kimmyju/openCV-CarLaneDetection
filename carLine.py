@@ -2,7 +2,7 @@ import numpy as np
 import cv2
 import math
 
-src = cv2.imread("C:/Users/yuido/cv/202178009_kimyeju/lane.jfif", 1)
+src = cv2.imread("[your image path]", 1)
 
 if src is None:
     print('Image load failed!')
